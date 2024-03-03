@@ -6,7 +6,7 @@
 }
 
 body{
-    overflow: hidden;
+    overflow: auto;
 }
 
 .left img{
@@ -64,8 +64,97 @@ nav ul li a:hover{
 }
 
 input{
-    height: 25px;
-    width: 100px;
+    height: 30px;
+    padding-left: 10px;
+    width: 200px;
     margin-top: 15px;
     margin-right: 50px;
+    border: none;
+    border-radius: 10px;
+}
+
+input:focus-visible{
+    border-style: none;
+}
+
+nav.Blue{
+    background-color:#00438c;
+    height: 40px;
+}
+
+.group1{
+    margin-top: 50px;
+}
+
+.group1 h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0 48px;
+}
+
+.grid a{
+    width: 52px;
+}
+
+.icon{
+    max-width: 60px;
+    aspect-ratio: 1/1;
+}
+
+.group2{
+    margin-top: 50px;
+}
+
+.group2 h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner{
+    margin-top: 60px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.banner img {
+    aspect-ratio: 16/9;
+    width: 100%;
+}
+
+.Pay{
+    overflow: hidden;
+    width: 100%;
+}
+
+.Pay img {
+    aspect-ratio: 12/1;
+    width: 100%;
+}
+.products{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.image{
+    width: 350px;
+    aspect-ratio: 5/6;
+}
+
+.sponsors{
+    display: flex;
+    width: 100%;
+}
+
+.spons{
+    max-width: calc(100% / 8);
+    aspect-ratio: 4/3;
 }
