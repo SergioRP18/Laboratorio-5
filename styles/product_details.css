@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+}
+
+body{
+    overflow: auto;
+}
+
+.side{
+    width: 40%;
+    min-width: 20%;
+}
+
+aside{
+
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+aside ul{
+    list-style: none;
+    margin-left: 20px;
+}
+
+aside ul li:hover{
+    color: red;
+}
+
+summary {
+    background-color: transparent;
+    box-sizing: content-box;
+    height: 40px;
+    width: 180px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+details li{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.padre {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+img{
+    cursor: pointer;
+}
+
+.product-card{
+    display: block;
+    padding-top: 1rem;
+    width: 340px;
+    margin: 20px 0px;
+}
+
+.product-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 50px;
+}
+
+.content{
+    width: 60%;
+    min-width: 80%;
+}
+
+.Products{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100em;
+}
+
+.details-merch h2{
+    display: flex;
+}
+
+.details-merch .text{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.details-merch .number{
+    display: flex;
+    box-sizing: border-box;
+    gap: 0.1rem;
+}
+
+.details-merch span{
+    font-size: 18px;
+    margin-top: -4px;
+}
+
+.details-merch sup{
+    font-size: 10px;
+}
+
+.details-merch h5{
+    gap: 2rem;
+}
+
+.Products-image img{
+    aspect-ratio: 4/3;
+}
+
+.paginator {
+    margin: 20px 10px;
+    display: inline-block;
+}
+
+
+.paginator select {
+    padding: 10px;
+    border-radius: 3px;
+    margin-left: 20px;
+}
+
+hr{
+    display: block;
+    width: calc(100% - 40px);
+    margin: 0 10px;
+}
