@@ -15,7 +15,7 @@ body{
     width: 100%;
 }
 
-img {
+.container img {
     margin-top: 50px;
     width: 60%;
     aspect-ratio: 3/3;
@@ -112,8 +112,4 @@ margin-left: 20PX;
 
 .button button:hover {
     color: red;
-}
-
-.size .button .link {
-    margin-left: 100px;
 }
