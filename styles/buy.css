@@ -45,6 +45,10 @@ body{
     margin-left: 5px;
 }
 
+.Money .number span {
+    margin-top: -10px;
+} 
+
 .Top h5 {
     margin-top: 5px;
 }
@@ -52,11 +56,13 @@ body{
 .size {
     background-color: #E6E6E6;
     width: 60%;
-    margin-top: 20px;
+    padding: 10px;
+    margin-top: 30px;
 }
 
 .size p {
-margin-left: 20PX;
+    margin-left: 20PX;
+    margin-top: 20px;
 }
 
 .size ul {
@@ -97,6 +103,7 @@ margin-left: 20PX;
     padding: 10px;
     border-radius: 3px;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 .button button {
@@ -105,11 +112,19 @@ margin-left: 20PX;
     border: none;
     border-radius: 3px;
     height: 40px;
-    width: 250px;
-    margin-left: 20px;
+    width: 240px;
+    margin-left: 10px;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 .button button:hover {
     color: red;
+}
+
+.size .button a {
+    margin-left: 140px;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
 }
