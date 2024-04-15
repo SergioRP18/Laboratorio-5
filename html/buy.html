@@ -31,6 +31,7 @@
         <input type="text" name="search" placeholder="search" />
         <ul>
           <li>
+            <span id="contador-cart">0</span>
             <a href="#"
               ><img
                 src="../src/assets/carrito-de-compras.png"
@@ -58,7 +59,7 @@
       </ul>
     </nav>
 
-    <div class="container">
+    <div class="container" id="content">
       <img
         src="https://fanatics.frgimages.com/golden-state-warriors/unisex-nike-stephen-curry-black-golden-state-warriors-2023/24-swingman-jersey-city-edition_ss5_p-5362487+pv-1+u-iuhrtqk3vrou0uufwokt+v-clshslfqywm03h9uosgh.jpg?_hv=2&w=900"
         alt=""
@@ -101,17 +102,20 @@
                 </ul>
         <p>Quanty</p>
         <div class="button">
-            <select>
+            <select id="selector">
                 <option value="1">1</option>
-                <option value="1">2</option>
-                <option value="1">3</option>
-                <option value="1">4</option>
-                <option value="1">5</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
             </select>
-                <button>Add to Cart</button>
+                <button id="enviar">Add to Cart</button>
         <a href=".">90-DAY RETURNS</a>
         </div>
         </div>
     </div>
+  </div>
+    <script src="../src/assets/components/buy.js"></script>
+
   </body>
 </html>

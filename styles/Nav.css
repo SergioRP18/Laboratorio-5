@@ -63,6 +63,10 @@ nav ul li a:hover{
     width: 30px;
 }
 
+.right p {
+    color: white;
+}
+
 input{
     height: 30px;
     padding-left: 10px;

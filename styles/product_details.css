@@ -130,3 +130,10 @@ hr{
     width: calc(100% - 40px);
     margin: 0 10px;
 }
+
+
+.product-image a img {
+    display: block;
+    width: 340px;
+    aspect-ratio: 1/1;
+}
